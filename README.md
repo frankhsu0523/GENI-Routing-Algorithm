@@ -1,5 +1,7 @@
 Implementation and Evaluation of Offline Routing Algorithms in Software Defined-Netowrk on GENI
+![GENI logo](http://www.geni.net/wp-content/uploads/2015/05/geni-logo-final.gif "GENI logo")
 ======================================================================================
+
 Introduction...
 
 ## Table of Contents
@@ -39,7 +41,9 @@ We use [GENI Desktop](https://genidesktop.netlab.uky.edu/ "GENI Desktop") to cre
 
 ### Clone raw XML RSpec
 After finish the reservation, clone the Raw XML Resource Specification (Manifest) in [GENI Portal](https://portal.geni.net) into you local directory. Run the following command then the program would create a "graph.pickle" file. 
-
+```Bash
+python create_graph.py  "RSpec_file (XML)" "graph_file (txt)"
+```
 ### Get controller SSH
 In [GENI Portal](https://portal.geni.net), you can find your controller information where the client id is "AAGCTRL0".
 ![](https://github.com/frankhsu523/GENI-Routing-Algorithm/blob/master/images/controller.png)
