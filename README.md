@@ -12,4 +12,4 @@ Introduction...
 
 ##  Requirements
 ### GENI account
-For using this program, you will need a GENI account. 
+For using this program, you will need a GENI account first. In [GENI](http://www.geni.net/ "GENI) 
