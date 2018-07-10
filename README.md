@@ -13,7 +13,7 @@ Introduction...
   - [Creat network](#create-network)
   - [Clone raw XML RSpec](#clone-raw-xml-rspec)
   - [Get controller SSH](#get-controller-ssh)
-
+  - [Set up the script](#set-up-the-script)
 
 
 
@@ -42,7 +42,10 @@ After finish the reservation, clone the Raw XML Resource Specification (Manifest
 
 ### Get controller SSH
 In [GENI Portal](https://portal.geni.net), you can find your controller information where the client id is "AAGCTRL0".
+![](https://github.com/frankhsu523/GENI-Routing-Algorithm/blob/master/images/controller.png)
 
+### Set up the script
+you could modify the auto.sh file according to your input data. The basic data you need to fill in include the controller ssh, the location of graph.pickle file and the location of path file. After finish it, run this script and the experiment will start it automatically.
 
 
 
