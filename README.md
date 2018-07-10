@@ -32,8 +32,8 @@ First, we need to create the SDN on GENI. The content of the graph file describe
 python create_rspec.py "graph_file (txt)"
 ```
 ### Create network
-To create a SDN, we use [GENI Desktop](https://genidesktop.netlab.uky.edu/ "GENI Desktop") to create our network. After logging into [GENI Desktop](https://genidesktop.netlab.uky.edu/ "GENI Desktop"), create a slice for your experiment. Once you create your slice, you could import the RSpec file. 
-![](http://github.com/frankhsu523/GENI-Routing-Algorithm/images/geni_desktop.png)
+We use [GENI Desktop](https://genidesktop.netlab.uky.edu/ "GENI Desktop") to create our network. After logging into [GENI Desktop](https://genidesktop.netlab.uky.edu/ "GENI Desktop"), create a slice for your experiment. Once you create your slice, you could import the RSpec file. When the GENI read the RSpec file, it will pop up the topology you give. Set up the topology by following the image below. In site option, you could choose any location for your resource reservation. After setting up, click the "Allocate Resources Using This RSpec" button and wait the geni to reserve the resources. 
+![](https://github.com/frankhsu523/GENI-Routing-Algorithm/blob/master/images/geni_desktop.png)
 
 
 
